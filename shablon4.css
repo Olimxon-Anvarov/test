@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    height: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Calibri;
+}
+
+.burger>div {
+    width: 20px;
+    height: 3px;
+    margin: 3px;
+    background-color: #dd4400
+    
+}
+
+.menu {
+    display: flex;
+    height: 110px;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+.menu .logo {
+    width: 300px;
+    height: 100%;
+    display: flex
+}
+
+.menu .logo .img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    object-fit: cover;
+}
+
+.menu .logo .img img {
+    width: auto;
+    height: 70px;
+}
+
+.menu .logo .text {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 10px;
+}
+
+.menu .logo .img1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.menu .logo .img1 img {
+    width: auto;
+    height: 20px;
+}
+
+.menu .logo1 {
+    margin: 25px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px;
+    margin-top: 35px;
+    margin-left: 530px;
+
+}
+
+.menu .logo1 div {
+    padding: 5px;
+    width: 130px;
+
+}
+
+.menu .logo1 div a {
+    color: #4e4e4e;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.menu .logo1 div a:hover {
+    opacity: 1.1;
+    transform: scale(1s);
+    color: #dd4400;
+}
+
+
+.menu1 {
+    width: 100%;
+    height: auto;
+}
+
+.menu1 .logo1 {
+    width: 100%;
+    height: 600px;
+}
+
+.menu1 .logo1 .img img {
+    width: 100%;
+    height: 700px;
+}
+
+section {
+    width: 100%;
+    height: auto;
+
+}
+
+.menu2 {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    justify-content: space-around;
+}
+
+.menu2 .cards {
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+
+.menu2 .cards .card {
+    width: 200px;
+    height: 300px;
+    /* border: 1px solid black; */
+    margin: 30px;
+    background-color: white;
+}
+
+.menu2 .cards .card .p1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 28px;
+    font-size: 23px;
+}
+
+.menu2 .cards .card .hr1 .hr {
+    width: 100px;
+    height: 3px;
+    opacity: 0.5s;
+    background-color: #dd4400;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 95px;
+    margin-left: 50px;
+}
+
+.menu2 .cards .card img {
+    width: 100px;
+    height: 90px;
+    margin-top: 15px;
+    margin-left: 50px;
+
+}
+
+.menu2 .cards .card .button {
+    width: 170px;
+    height: 35px;
+    background-color: #dd4400;
+    color: white;
+    margin-left: 15px;
+    margin-top: 15px;
+    border: none;
+}
+
+.menu2 .cards .card .button:hover {
+    opacity: 0.5;
+    transform: scale(1.1);
+    transition: 0.5s linear;
+}
+
+.menu3{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.menu3 .text{
+    width: 800px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+.menu3 .text .wrapper{
+    width: 730px;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.menu3 .text .wrapper .p1{
+    width: auto;
+    height: auto;
+    display: flex;
+    text-align: center;
+    /* margin-left: 150px; */
+    font-size: 25px;
+}
+.menu3 .text .wrapper .p2{
+    width: auto;
+    height: auto;
+    /* margin-left: 150px ; */
+    font-size: 15px;
+}
+.menu3 .text .wrapper .button{
+    width: 150px;
+    height: 30px;
+    color: white;
+    /* margin-left: 150px; */
+    background-color: #dd4400;
+    border: none;
+}
+.menu3 .text .wrapper .button {
+    width: 170px;
+    height: 35px;
+    background-color: #dd4400;
+    color: white;
+    border: none;
+}
+.menu3 .text .wrapper .button:hover{
+    transform: scale(1.1);
+    transition: 0.5s linear;
+}
+
+.menu3 .cards2{
+    width: 300px;
+    height: 350px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.menu3 .cards2 .glav .text{
+    width: 100%;
+    display: flex;
+    height: 40px;
+    font-size: 25px;
+    justify-content: left;
+    font-weight: bold;
+    
+}
+.menu3 .cards2 .glav{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 100%;
+}
+.menu3 .cards2 .glav .cards3{
+    width: 100%;
+    height: 265px;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+.menu3 .cards2 .glav .cards3 .card{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.menu3 .cards2 .glav .cards3 .card .img{
+    width: 50px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.menu3 .cards2 .glav .cards3 .card .img img{
+    width: 100%;
+    height: auto;
+    
+}
+.menu3 .cards2 .glav .cards3 .card .text2{
+    width: 100%;
+    height: 100%;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #dd4400;
+}
+footer{
+    width: 100%;
+    height: 130px;
+    background-color: #dd4400;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer .card{
+    width: 350px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+}
+footer .card .p1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+footer .card .p2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+footer .card .p3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+footer .card1{
+    width: 400px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+}
+footer .card1 .p1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+}
+footer .card1 .p2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 15px;
+}
+footer .card1 .p3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 15px;
+}
+
